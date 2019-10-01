@@ -1,18 +1,5 @@
 <div class="cd-schedule-modal__event-info">
-	<div id="map"></div>
-	<script>
-		
-		function initMap() {
-			
-			var uluru = { lat: 45.5123462, lng: -122.685777 };
-			
-			var map = new google.maps.Map(
-				document.getElementById('map'), { zoom: 4, center: uluru });
-			
-			var marker = new google.maps.Marker({ position: uluru, map: map });
-		}
-	</script>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7JXonfKPK8o65ebiEZFwaTyjW036l_iM&callback=initMap">
-	</script>
-
+	<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD7JXonfKPK8o65ebiEZFwaTyjW036l_iM
+			    &q=ChIJpUPoKxcKlVQRBpqRDN94W00" allowfullscreen> 
+	</iframe>
 </div>
